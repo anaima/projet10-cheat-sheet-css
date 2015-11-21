@@ -1,0 +1,14 @@
+/*le header*/
+.haut {
+  padding-top: 20px;
+}
+
+/*les titres de chaque panel*/
+.tit {
+  text-decoration: none;
+}
+
+/*ne prend pas la couleur du backg en entier-->big pb*/
+html {
+  background-color: #14BC8C;
+}

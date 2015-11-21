@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>My Cheat Sheet CSS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="ionh.png" />
+  <link rel="stylesheet" href="fichcss.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+</head>
+
+<body>
+
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="#">My Cheat Sheet CSS</a></h1>
+      </li>
+
+      <section class="top-bar-section">
+        <ul class="left">
+          <li class="active"><a href="#">Home</a></li>
+          <li>
+            <a href="#">
+              <span data-tooltip title="Nothing here !">Page 1</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span data-tooltip title="Try again !">Page 2</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span data-tooltip title="Try again !">Page 3</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+  </nav>
+
+  <header class="row haut">
+    <div class="small-12 medium-12 large-12 columns">
+      <div class="panel radius callout">
+        <h1><i class="fi-check">Welcome to my Cheat Sheet !</i></h1>
+        <img src="images.png" alt="affiche css" height="70px" width="90px" class="right">
+        <a href="#ancre1">
+          <button type="button" class="round button">Let's go!</button>
+        </a>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="row" data-equalizer>
+    <div class="medium-4 columns panel" data-equalizer-watch>
+      <h3 id="ancre1" class="tit">
+        <span data-tooltip class="tip-left" title="ENJOY !"><i class="fi-align-justify">Propriété de mises en forme du texte</i></span>
+      </h3>
+      <ul>
+        <li>
+          <kbd>font-family :</kbd>concerne la police de caractère</li>
+        <li>
+          <kbd>text-transform :</kbd>met les caractères en minuscule ou majucule</li>
+        <li>
+          <kbd>font-size :</kbd>Taille du texte</li>
+        <li>
+          <kbd>font-weight :</kbd>épaisseur du caractère</li>
+        <li>
+          <kbd>font-style :</kbd>définit l'aspect/ le style d'une famille de police</li>
+        <li>
+          <kbd>text-decoration :</kbd>soulignement, barré, ligne au-dessus</li>
+        <li>
+          <kbd>text-shadow :</kbd>ombre au texte</li>
+        <li>
+          <kbd>text-align :</kbd>permet d'aligner le texte à droite, au centre ou à gauche</li>
+        <li>
+          <kbd>line-height :</kbd>spécifie la hateur minimale de ligne contenu</li>
+      </ul>
+    </div>
+    <div class="medium-4 columns panel callout" data-equalizer-watch>
+      <h3 class="tit"><i class="fi-play">Propriété de couleurs et de fond</i></h3>
+      <ul>
+        <li>
+          <kbd>color :</kbd>concerne la couleur</li>
+        <li>
+          <kbd>background-color :</kbd>Couleur de fond</li>
+        <li>
+          <kbd>background-image :</kbd>Image de fond</li>
+        <li>
+          <kbd>background-attachment :</kbd>Fond fixe</li>
+        <li>
+          <kbd>background-repeat :</kbd>Répétition du fond</li>
+        <li>
+          <kbd>background-position :</kbd>Position du fond</li>
+        <li>
+          <kbd>background :</kbd>Super propriété du fond. Combine le background-image, background-repeat, background-attachment, background-position</li>
+        <li>
+          <kbd>opacity:</kbd>Transparence</li>
+      </ul>
+    </div>
+    <div class="medium-4 columns panel" data-equalizer-watch>
+      <h3 class="tit"><i class="fi-play">Propriété des boîtes</i></h3>
+      <ul>
+        <li>
+          <kbd>width :</kbd>Largeur. (min-width) pour la largeur minimale, et au contraire max-width pour maximale</li>
+        <li>
+          <kbd>height :</kbd>Hauteur. (min-height et max-height)</li>
+        <li>
+          <kbd>margin :</kbd>concerne la marge de page. NB: On peut utiliser margin-top, margin-right, margin-bottom, margin-left</li>
+        <li>
+          <kbd>padding :</kbd>concerne intérieur NB: padding-top-right-bottim-left.</li>
+        <li>
+          <kbd>border-width :</kbd>épaisseur de la bordure d'un tableau</li>
+        <li>
+          <kbd>border-color :</kbd>couleur de la bordure</li>
+        <li>
+          <kbd>border-style :</kbd>type de bordure (dotted, solid, dahed,inset etc)</li>
+        <li>
+          <kbd>border</kbd>Super-propriété de bordure. Combine border-width, border-color, border-style.</li>
+        <li>
+          <kbd>border-radius :</kbd>bordure arrondie</li>
+        <li>
+          <kbd>box-shadow :</kbd>ombre de boîte</li>
+
+      </ul>
+    </div>
+  </div>
+
+  <div class="row" data-equalizer>
+    <div class="medium-4 columns panel callout" data-equalizer-watch>
+      <h3 class="tit">Propriété des listes</h3>
+      <ul class="square">
+        <li>
+          <kbd>list-style-type :</kbd> list-style. Exple de valeurs : disc, circle, square, decimal, lower-roman, upper-roman, lower-alpha, upper-alpha, none</li>
+        <li>
+          <kbd>list-style-position :</kbd>Position en retrait (comme valeur : inside, outside)</li>
+        <li>
+          <kbd>list-style-image :</kbd>Puce personnalisée (syntaxe : url('puce.png')</li>
+        <li>
+          <kbd>list-style :</kbd>Super-propriété de liste. Combine list-style-type, list-style-position, list-style-image.</li>
+      </ul>
+    </div>
+    <div class="medium-4 columns" data-equalizer-watch>
+      <h3 class="tit">Propriété de positionnement et d'affichage </h3>
+      <span data-tooltip title="Unfortunately U can't Click">
+        <img src="capturetable.png" alt="table position et affichage">
+      </span>
+    </div>
+    <div class="medium-4 columns panel callout" data-equalizer-watch>
+      <h3 class="tit">Propriété des tableaux</h3>
+      <ul class="circle">
+        <li>
+          <kbd>border-collapse :</kbd>Fusion des bordures (valeur : collapse, separate)</li>
+        <li>
+          <kbd>empty-cells :</kbd>Affichage des cellules vides (valeur : hide, show)</li>
+        <li>
+          <kbd>caption-side :</kbd>Position du titre du tableau (valeur : bottom, top)</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="row">
+    <div class="small-12 medium-12 large-12 columns ">
+      <hr>
+      <div class="row">
+        <div class="large-6 columns">
+          <p>Remember Each Member</p>
+        </div>
+
+
+        <div class="large-6 columns">
+          <p>REM</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  </div>
+
+
+
+
+
+
+
+</body>
+<script>
+  $(document).ready(function() {
+    $(document).foundation();
+  })
+</script>
+
+</html>

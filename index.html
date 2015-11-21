@@ -19,39 +19,37 @@
   <nav class="top-bar" data-topbar>
     <ul class="title-area">
       <li class="name">
-        <h1><a href="#">My Cheat Sheet CSS</a></h1>
+        <h2><a href="#">My Cheat Sheet CSS</a></h2>
       </li>
-
-      <section class="top-bar-section">
-        <ul class="left">
-          <li class="active"><a href="#">Home</a></li>
-          <li>
-            <a href="#">
-              <span data-tooltip title="Nothing here !">Page 1</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span data-tooltip title="Try again !">Page 2</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span data-tooltip title="Try again !">Page 3</span>
-            </a>
-          </li>
-        </ul>
-      </section>
+    </ul>
+    <section class="top-bar-section">
+      <ul class="left">
+        <li class="active"><a href="#">Home</a></li>
+        <li>
+          <a href="#">
+            <span data-tooltip title="Nothing here !">Page 1</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span data-tooltip title="Try again !">Page 2</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span data-tooltip title="Try again !">Page 3</span>
+          </a>
+        </li>
+      </ul>
+    </section>
   </nav>
 
   <header class="row haut">
     <div class="small-12 medium-12 large-12 columns">
       <div class="panel radius callout">
         <h1><i class="fi-check">Welcome to my Cheat Sheet !</i></h1>
-        <img src="images.png" alt="affiche css" height="70px" width="90px" class="right">
-        <a href="#ancre1">
-          <button type="button" class="round button">Let's go!</button>
-        </a>
+        <img src="images.png" alt="affiche css" class="right">
+          <a href="#ancre1"><button type="button" class="round button">Let's go!</button></a>
       </div>
     </div>
   </header>
@@ -172,8 +170,6 @@
         <div class="large-6 columns">
           <p>Remember Each Member</p>
         </div>
-
-
         <div class="large-6 columns">
           <p>REM</p>
         </div>
@@ -183,19 +179,12 @@
 
 
 
-  </div>
 
-
-
-
-
-
-
+  <script>
+    $(document).ready(function() {
+      $(document).foundation();
+    })
+  </script>
 </body>
-<script>
-  $(document).ready(function() {
-    $(document).foundation();
-  })
-</script>
 
 </html>
